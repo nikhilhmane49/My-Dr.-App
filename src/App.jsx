@@ -11,6 +11,8 @@ import Login from './pages/Login'
 import Myprofile from './pages/Myprofile'
 import Doctor from './pages/Doctor'
 import Navbar from './Compoenets/common/Navbar'
+import Footer from './Compoenets/common/Footer'
+
 
 function App() {
 
@@ -18,7 +20,6 @@ function App() {
   return (
     <>
     
-      
 <Navbar/>
 
 
@@ -34,7 +35,8 @@ function App() {
         <Route path="/Doctor" element={<Doctor />} /> 
         
       </Routes>
-      
+
+      <Footer/>
     </>
   )
 }
